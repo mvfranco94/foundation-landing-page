@@ -1,2 +1,3 @@
-# foundation-landing-page
-Project: Landing Page Template
+# Foundation: Landing Page
+
+Project to build a landing page template, to practice html and css.
