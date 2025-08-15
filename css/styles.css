@@ -1,5 +1,94 @@
+/* Import Roboto Font from google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.viewport {
+  height: 100vh;
+  padding: 16px 100px;
+}
+
+.header, .main-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main, .footer {
+ background-color: #1f2937;
+ color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header .logo{
+  margin-right: auto;
+}
+
+.header .logo a {
+  font-size: 24px;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.header .nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.main-section {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.main-description, .main-image {
+  flex: 0 1 500px;
+}
+
+.main-description h2{
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.main-description p{
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: justify;
+}
+
+.main-description button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 900;
+  padding: 8px 24px;
+  border-radius: 8px;
+  margin: 12px 0;
+  border: none;
 }
