@@ -9,9 +9,16 @@
   scroll-behavior: smooth;
 }
 
+.viewport, .viewport-50 {
+  padding: 16px 100px;
+}
 .viewport {
   height: 100vh;
-  padding: 16px 100px;
+  
+}
+
+.viewport-50 {
+  height: 50vh;
 }
 
 .header, .main-section {
@@ -183,4 +190,45 @@
   align-self: flex-end;
   font-size: 24px;
   font-weight: 700;
+}
+
+.section-three{
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container {
+  margin: auto 0;
+  /* align-self: center; */
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 48px 128px;
+  display: flex;
+  color: #f9faf8;
+}
+
+.signup-container div {
+  margin-right: auto;
+}
+
+.signup-container div h2 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.signup-container div p {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.signup-container button {
+  background-color: #3882f6;
+  align-self: center;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  padding: 12;
+  padding: 8px 36px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
 }
