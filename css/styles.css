@@ -154,3 +154,30 @@
   text-align: center;
 }
 
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  background: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  max-width: 700px;
+  align-self: center;
+  gap: 24px;
+}
+
+.quote p:first-child {
+  font-size: 36px;
+  text-align: justify;
+}
+
+.quote p:last-child {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: 900;
+}
