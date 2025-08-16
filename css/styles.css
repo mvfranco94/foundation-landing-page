@@ -159,6 +159,7 @@
   display: flex;
   flex-direction: column;
   background: #e5e7eb;
+  color: #1f2937;
 }
 
 .quote {
@@ -174,10 +175,12 @@
 .quote p:first-child {
   font-size: 36px;
   text-align: justify;
+  font-style: italic;
+  font-weight: 200;
 }
 
 .quote p:last-child {
   align-self: flex-end;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 24px;
+  font-weight: 700;
 }
